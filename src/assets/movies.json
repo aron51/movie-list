@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"title": "Avengers: Endgame",
+		"description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+		"genre": "Action",
+		"year": 2019,
+		"poster": "http://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Avengers: Infinity War",
+		"description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+		"genre": "Action",
+		"year": 2018,
+		"poster": "http://image.tmdb.org/t/p/w500//7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Thor: Ragnarok",
+		"description": "Thor (Chris Hemsworth) is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela (Cate Blanchett).",
+		"genre": "Action",
+		"year": 2017,
+		"poster": "http://image.tmdb.org/t/p/w500//rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Guardians of the Galaxy Vol. 2",
+		"description": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
+		"genre": "Adventure",
+		"year": 2017,
+		"poster": "http://image.tmdb.org/t/p/w500//y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Spider-Man: Into the Spider-Verse",
+		"description": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.",
+		"genre": "Animation",
+		"year": 2018,
+		"poster": "http://image.tmdb.org/t/p/w500//iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Captain Marvel",
+		"description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+		"genre": "Sci-Fi",
+		"year": 2019,
+		"poster": "http://image.tmdb.org/t/p/w500//AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Star Wars: The Last Jedi",
+		"description": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+		"genre": "Fantasy",
+		"year": 2017,
+		"poster": "http://image.tmdb.org/t/p/w500//kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
+	},
+	{
+		"id": 8,
+		"title": "Baby Driver",
+		"description": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+		"genre": "Crime",
+		"year": 2017,
+		"poster": "http://image.tmdb.org/t/p/w500//dN9LbVNNZFITwfaRjl4tmwGWkRg.jpg"
+	},
+	{
+		"id": 9,
+		"title": "Blade Runner 2049",
+		"description": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+		"genre": "Drama",
+		"year": 2017,
+		"poster": "http://image.tmdb.org/t/p/w500//gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+	}
+]
