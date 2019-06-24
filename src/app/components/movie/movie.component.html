@@ -1,0 +1,23 @@
+<div class="movie">
+  <div [style.background-image]="'url(' + movie.poster + ')'" class="background-image"></div>
+  
+  <img [alt]="movie.poster" [src]="movie.poster" class="poster">
+  
+  <div class="details">
+    <div class="title">
+      {{ movie.title }}
+    </div>
+    
+    <div>
+      {{ movie.year }}
+    </div>
+    
+    <div>
+      {{ movie.genre }}
+    </div>
+
+    <div>
+      {{  movie.description }}
+    </div>
+  </div>
+</div>

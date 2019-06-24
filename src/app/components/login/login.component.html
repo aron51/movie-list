@@ -1,0 +1,20 @@
+
+<div class="container">
+  <form [formGroup]="loginForm" [@hasError]="animationState" (@hasError.done)="animationEnd()">
+    <div class="input-wrapper">
+      <input formControlName="email" id="username" placeholder="Email" type="email">
+    </div>
+
+    <div class="input-wrapper">
+      <input formControlName="password" id="password" placeholder="Password" type="password">
+    </div>
+
+    <div class="input-wrapper">
+      <my-button [disabled]="loginForm.invalid" (click)="onLogin()" label="Login"></my-button>
+    </div>
+
+    <div *ngIf="displayError" @fade class="input-wrapper">
+     <span class="error">Wrong login credentials!</span>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,26 @@
+<header>
+  <div class="header">
+    <ul>
+      <li [class.active]="activeSort == 'title'" (click)="onChangeSortBy('title')">
+        Title
+      </li>
+
+      <li [class.active]="activeSort == 'year'" (click)="onChangeSortBy('year')">
+        Year
+      </li>
+
+      <li [class.active]="activeSort == 'genre'" (click)="onChangeSortBy('genre')">
+        Genre
+      </li>
+    </ul>
+
+    <div class="user-profile">
+      <div>
+        Hello, {{ username }}
+      </div>
+
+      <my-button (click)="onLogout()" label="Logout">
+      </my-button>
+    </div>
+  </div>
+</header>

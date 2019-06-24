@@ -1,0 +1,52 @@
+.background-image {
+	background-size: cover;
+	bottom: 0;
+	display: block;
+	filter: blur(20px);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	-o-filter: blur(20px);
+	-ms-filter: blur(20px);
+}
+
+.details {
+	flex-basis: 50%;
+	padding-left: 1rem;
+
+	div {
+		margin-bottom: .5rem;
+	}
+}
+
+.movie {
+	border-radius: 1rem;
+	box-shadow: 0 10px 6px -6px #232323;
+	color: #dfe6e9;
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 500;
+	height: 100%;
+	position: relative;
+	overflow: auto;
+	-webkit-box-shadow: 0 10px 6px -6px #232323;
+	-moz-box-shadow: 0 10px 6px -6px #232323;
+}
+
+.poster {
+	max-height: 15rem;
+	max-width: 15rem;
+	height: auto;
+	object-fit: contain;
+	width: auto;
+}
+
+.title {
+	font-size: 1.5rem;
+}

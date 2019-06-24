@@ -1,0 +1,22 @@
+button {
+	background-color: #0984e3;
+	border-radius: 2px;
+	border-width: 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	color: #ecf0f1;
+	padding: .5rem 1rem;
+	position: relative;
+	outline: none;
+	overflow: hidden;
+	transition: background-color .3s;
+	width: 100%;
+
+	&:disabled {
+		background-color: #4dabf3;
+	}
+
+	&focus,
+	&:hover {
+		background-color: #1d68a2;
+	}
+}

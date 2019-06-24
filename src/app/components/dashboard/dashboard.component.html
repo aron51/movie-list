@@ -1,0 +1,14 @@
+<app-header 
+  [defaultSort]="defaultSort" 
+  [username]="user" 
+   (logout)="onLogout()"
+  (sortByChange)="onSortByChange($event)" >
+</app-header>
+
+<div  class="container">
+  <div @items *ngFor="let movie of movieCollection$ | async; trackBy: trackByFn">
+    <movie [movie]="movie"></movie>
+  </div>
+</div>
+
+

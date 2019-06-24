@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	div {
+		flex-basis: 100%;
+		margin: 1rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		flex-direction: row;
+
+		div {
+			flex-basis: calc(33% - (1rem * 2));
+		}
+	}
+}
